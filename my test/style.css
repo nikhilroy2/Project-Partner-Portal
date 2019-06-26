@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Cantarell:400i|Caveat|Courgette|Kalam|Niconne|Permanent+Marker|Romanesco|Shadows+Into+Light|Sonsie+One&display=swap');
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: partner;
+    src: url("../AAge of Awakening-Bold.ttf");
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #451b1d;
+}
+.main_box{
+    width: 992px;
+    height: 600px;
+    margin: 0px auto;
+    position: relative;
+}
+.main_box .ptn_p{
+    color: white;
+    margin: 0px;
+    margin-left: 40px;
+    line-height: 50px;
+    margin-bottom: -10px;
+    font-style:italic;
+    font-weight: 800;
+    
+}
+.sub_form_title span{
+    font-family: 'Kalam', cursive;
+    color:#fd8411;
+}
+.sub_form_title #spa{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-style:italic;
+}
+.main_sub_box{
+    width: 700px;
+    height: 400px;
+    border: 2px solid white;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-radius: 5px 3px 0px;
+}
+.sub_form_log{
+    width: 245px;
+    min-height: 200px;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+.sub_form_title{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    padding: 10px;
+}
+.form_action{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.form_action div{
+    flex-basis: 14%;
+    height: 31px;
+    display: inline-block;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    background: white;
+    overflow: hidden;
+}
+.form_action input{
+    flex-basis: 85%;
+    height: 31px; 
+    margin-bottom: 1px;
+    border: none;
+}
+
+/*-------------------------------------Input box works----------------------*/
+.form_action input[type="text"], .form_action input[type="password"]{
+    padding: 0px 15px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.form_action input::placeholder{
+ 
+    letter-spacing: 1px;
+    color: #252621;
+}
+.form_action .logred1{
+    border-top-left-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.form_action .logicon1{
+    border-top-right-radius: 3px;
+    
+}
+.form_action .logred2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.form_action .logred3{
+    border-bottom-left-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_action .logicon3{
+    border-bottom-right-radius: 3px;
+}
+.form_action input[type="submit"]{
+    flex-basis: 100%;
+    margin-top: 6px;
+    background: #fc801c;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 3px;
+    color: white;
+}
+#user i, #user img{
+    color: #fd8411;
+    font-size: 23px;
+}
+/*-----------------------------Main Box works------------------------*/
+.main_box .mms_news{
+    width: 370px;
+    height: 170px;
+    border: 3px solid #f78e1e;
+    position: absolute;
+    top: 35%;
+    left: 47%;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-style: italic;
+}
+.mms_news h2{
+    padding: 0px;
+    margin: 6px;
+    font-size: 1.6em;
+    margin-bottom: none;
+}
+.mms_news .mms_text{
+    font-size: 13px;
+    padding: 0px 18px 5px 25px;
+    color: rgb(201, 195, 195);
+   
+}
+                            /*------------Image works ----------*/
+.img_box{
+    position: absolute;
+    width: 300px;
+    height: 330px;
+    top: 0px;
+    right: 0px;
+    margin-right: -15px;
+    overflow: hidden;
+   
+}
+.img_box img{
+    width: 100%;
+    height: 100%;
+    margin-top: -55px;
+    margin-left: 55px;
+    opacity:.6;
+}
+.img_100_box{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+   
+}
+.img_100_box img{
+    width: 110px;
+    height: 110px;
+    margin-left: -15px;
+}
+.top_100_content{
+    color: white;
+    font-style: italic;
+    font-size: 17px;
+    margin-left: -10px;
+}
+.top_100_content a{
+    display: block;
+    color: #fd8411;
+    font-weight: bold;
+    text-decoration: none;
+}
+.top_100_content p{
+    margin: 0px;
+}
+.line_width{
+    position: absolute;
+    bottom: 68px;
+    left: 56px;
+    width: 715px;
+    height: 100px;
+    border: none;
+    border-bottom: 3px solid white;
+}
+.line_width::after{
+    content: "";
+    background-image: url("../MailMyStatements Logo_No Envolopes_April 12th 2019.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 200px;
+    bottom: -83px;
+    right: -181px;
+    height: 200px;
+}
