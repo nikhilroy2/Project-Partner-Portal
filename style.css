@@ -214,7 +214,7 @@ body{
 }
 .line_width::after{
     content: "";
-    background-image:url("MailMyStatements Logo_No Envolopes_April 12th 2019.png");
+    background-image: url("MailMyStatements Logo_No Envolopes_April 12th 2019.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: absolute;
